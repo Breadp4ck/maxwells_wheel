@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipes_end.obj-0d3084d8cfcb66428342067412f2b38a.mesh"
+
+[deps]
+
+files=[ "res://.import/pipes_end.obj-0d3084d8cfcb66428342067412f2b38a.mesh" ]
+
+source_file="res://models/pipes_end.obj"
+dest_files=[ "res://.import/pipes_end.obj-0d3084d8cfcb66428342067412f2b38a.mesh", "res://.import/pipes_end.obj-0d3084d8cfcb66428342067412f2b38a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

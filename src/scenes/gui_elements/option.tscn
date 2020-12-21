@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/gui_scripts/option.gd" type="Script" id=1]
+
+[node name="option" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_min_size = Vector2( 0, 60 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+margin_top = 533.0
+margin_right = 958.0
+margin_bottom = 547.0
+size_flags_horizontal = 3
+text = "Label"
+clip_text = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+margin_left = 962.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="SpinBox" type="SpinBox" parent="HBoxContainer/VBoxContainer"]
+margin_top = 518.0
+margin_right = 958.0
+margin_bottom = 542.0
+
+[node name="HSlider" type="HSlider" parent="HBoxContainer/VBoxContainer"]
+margin_top = 546.0
+margin_right = 958.0
+margin_bottom = 562.0
+[connection signal="value_changed" from="HBoxContainer/VBoxContainer/SpinBox" to="." method="_on_SpinBox_value_changed"]
+[connection signal="value_changed" from="HBoxContainer/VBoxContainer/HSlider" to="." method="_on_HSlider_value_changed"]
