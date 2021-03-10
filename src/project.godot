@@ -20,13 +20,18 @@ config/description="Physics simulation of Maxwell's wheel
 Programming and 3D-modelling by Alexander Begichev
 Physical description by Sergey Neretin"
 run/main_scene="res://scenes/GUI.tscn"
-boot_splash/bg_color=Color( 0.109804, 0.137255, 0.156863, 1 )
+boot_splash/image="res://startup_image.png"
+boot_splash/bg_color=Color( 0.882353, 0.882353, 0.882353, 1 )
 config/icon="res://logo.png"
 
 [display]
 
-window/size/width=1920
-window/size/height=1080
+window/size/width=1200
+window/size/height=800
+
+[gui]
+
+theme/use_hidpi=true
 
 [input]
 
@@ -73,8 +78,13 @@ side_invert={
  ]
 }
 
+[locale]
+
+locale_filter=[ 0, [ "en", "ru" ] ]
+translations=PoolStringArray( "res://translation/translation.ru.translation", "res://translation/translation.en.translation" )
+
 [rendering]
 
 threads/thread_model=2
-environment/default_clear_color=Color( 0.133333, 0.164706, 0.188235, 1 )
+environment/default_clear_color=Color( 0.929412, 0.929412, 0.929412, 1 )
 environment/default_environment="res://default_env.tres"

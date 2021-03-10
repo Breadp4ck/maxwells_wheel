@@ -52,6 +52,6 @@ func _input(event) -> void:
 				camera.projection = Camera.PROJECTION_ORTHOGONAL
 				
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	rotation_degrees.y = camrot_h * camera_acc
 	rotation_degrees.x = camrot_v * camera_acc

@@ -1,0 +1,21 @@
+id,en,ru
+kinematic_energy,Kinematic Energy,Кинетическая энергия
+potential_energy,Potential Energy,Потенциальная энергия
+linear_velocity,Linear Velocity,Скорость
+angle_velocity,Angle Velocity,Угловая скорость
+height,Height,Высота
+time,Time,Время
+seconds,s,с
+meters,m,м
+joules,J,Дж
+radians,rad,рад
+kilograms,kg,кг
+meters_per_second,m/sec,м/с
+radians_per_second,rad/s,рад/с
+wire_length,Rope Length,Длина нити
+mass_minor,Crossbar Mass,Масса штанги
+mass_major,Shaft Mass,Масса вала
+radius_minor,Crossbar Radius,Радиус штанги
+radius_major,Shaft Radius,Радиус вала
+help,Help,Помощь
+language,Language,Language

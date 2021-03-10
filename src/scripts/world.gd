@@ -54,6 +54,7 @@ func _on_drop_pressed() -> void:
 
 func _on_wire_length_value_changed(value):
 	maxwells_wheel.HEIGHT = value
+	camera_controller.global_transform.origin.y = value / 2
 	maxwells_wheel.rebuild_construction()
 
 

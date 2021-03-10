@@ -11,11 +11,11 @@ onready var label: Label = $HBoxContainer/Label
 onready var spin_box: SpinBox = $HBoxContainer/VBoxContainer/SpinBox
 onready var slider: HSlider = $HBoxContainer/VBoxContainer/HSlider
 
-var value: float = default_value
-signal value_changed(value)
+var signalled_value: float = default_value
+signal value_changed(signalled_value)
 
 func _ready():
-	label.text = label_text
+	label.text = tr(self.name)
 	
 	spin_box.min_value = range_from
 	spin_box.max_value = range_to

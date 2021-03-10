@@ -1,6 +1,6 @@
 extends Control
 
-export(String) var label_text = "Cutic energy"
+export(String) var label = "Cutic energy"
 export(String) var suffix = "J"
 
 onready var name_label: Label = $HBoxContainer/Name
@@ -9,12 +9,11 @@ onready var value_label: Label = $HBoxContainer/Value
 var value: float = 0.0
 
 func _ready():
-	name_label.text = label_text
+	name_label.text = tr(label)
 	update_value_label()
 
-
 func update_value_label():
-	value_label.text = String(value) + ' ' + suffix
+	value_label.text = String("%6.3f" % value) + ' ' + tr(suffix)
 
 
 func _on_world_potential_energy_changed(potential_energy):
