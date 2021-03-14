@@ -9,6 +9,9 @@ onready var value_label: Label = $HBoxContainer/Value
 var value: float = 0.0
 
 func _ready():
+	update_translation()
+
+func update_translation():
 	name_label.text = tr(label)
 	update_value_label()
 

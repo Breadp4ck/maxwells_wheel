@@ -1,6 +1,6 @@
 id,en,ru
-kinematic_energy,Kinematic Energy,Кинетическая энергия
-potential_energy,Potential Energy,Потенциальная энергия
+kinematic_energy,Kinematic Energy,Кин. энергия
+potential_energy,Potential Energy,Пот. энергия
 linear_velocity,Linear Velocity,Скорость
 angle_velocity,Angle Velocity,Угловая скорость
 height,Height,Высота
@@ -13,9 +13,20 @@ kilograms,kg,кг
 meters_per_second,m/sec,м/с
 radians_per_second,rad/s,рад/с
 wire_length,Rope Length,Длина нити
-mass_minor,Crossbar Mass,Масса штанги
-mass_major,Shaft Mass,Масса вала
-radius_minor,Crossbar Radius,Радиус штанги
-radius_major,Shaft Radius,Радиус вала
+mass_minor,Crossbar Mass,Масса вала
+mass_major,Shaft Mass,Масса диска
+radius_minor,Crossbar Radius,Радиус вала
+radius_major,Shaft Radius,Радиус диска
 help,Help,Помощь
-language,Language,Language
+language,Language,Язык
+about_programm,About,О программе
+guide_programm,Guide,Инструкции
+not_covered,lol,kek
+authors_names,"Begichev Alexander, Korjov Kirill, Neretin Sergey","Бегичев Александр, Коржов Кирилл, Неретин Сергей"
+about_text,Process modelling of Maxwell’s Wheel. It was created for educational purposes.,Визуализация и моделирование Маятника Максвелла. Сделано для образовательных целей.
+programm_name,Maxwell’s Wheel,Маятник Максвелла
+english,English,Английский (English)
+russian,Russian (Русский),Русский
+values,Output Properties,Свойства системы
+options,Input Values,Вводимые данные
+guide,"At the top are a menu with information and a menu with language selection. On the left is a panel showing the current status of the system. On the right, there is a panel with system settings that can be changed directly. At the bottom is the time control panel. In the middle is the process model. The observation point can be changed using the mouse buttons and the numpad panel.","Сверху находятся меню с информацией и меню с выбором языка. Слева находится панель, отражающая текущее состояние системы. Справа находится панель с параметрами системы, которые можно изменять напрямую. Снизу находится панель с управлением времени. В центре расположена наглядная модель процесса. Точку наблюдения можно изменять с помощью клавиш мыши и панели numpad."

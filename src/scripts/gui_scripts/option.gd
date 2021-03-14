@@ -15,18 +15,23 @@ var signalled_value: float = default_value
 signal value_changed(signalled_value)
 
 func _ready():
-	label.text = tr(self.name)
-	
 	spin_box.min_value = range_from
 	spin_box.max_value = range_to
 	spin_box.step = range_step
 	spin_box.value = default_value
-	spin_box.suffix = suffix
+	
 
 	slider.min_value = range_from
 	slider.max_value = range_to
 	slider.step = range_step
 	slider.value = default_value
+	
+	update_translation()
+	
+	
+func update_translation():
+	label.text = tr(label_text)
+	spin_box.suffix = tr(suffix)
 
 
 func _on_SpinBox_value_changed(value):

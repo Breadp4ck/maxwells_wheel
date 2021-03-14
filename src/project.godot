@@ -24,6 +24,10 @@ boot_splash/image="res://startup_image.png"
 boot_splash/bg_color=Color( 0.882353, 0.882353, 0.882353, 1 )
 config/icon="res://logo.png"
 
+[autoload]
+
+LangHandler="*res://scripts/singletones/lang_handler.gd"
+
 [display]
 
 window/size/width=1200
