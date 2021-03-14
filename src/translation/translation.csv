@@ -1,4 +1,4 @@
-id,en,ru
+﻿id,en,ru
 kinematic_energy,Kinematic Energy,Кин. энергия
 potential_energy,Potential Energy,Пот. энергия
 linear_velocity,Linear Velocity,Скорость
@@ -22,7 +22,7 @@ language,Language,Язык
 about_programm,About,О программе
 guide_programm,Guide,Инструкции
 not_covered,lol,kek
-authors_names,"Begichev Alexander, Korjov Kirill, Neretin Sergey","Бегичев Александр, Коржов Кирилл, Неретин Сергей"
+authors_names,"Begichev Alexander, Korzhov Kirill, Neretin Sergey","Бегичев Александр, Коржов Кирилл, Неретин Сергей"
 about_text,Process modelling of Maxwell’s Wheel. It was created for educational purposes.,Визуализация и моделирование Маятника Максвелла. Сделано для образовательных целей.
 programm_name,Maxwell’s Wheel,Маятник Максвелла
 english,English,Английский (English)
